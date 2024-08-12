@@ -1,0 +1,29 @@
+.navbarprin {
+    background-color: #333;
+    color: black;
+    padding: 10px 20px;
+}
+
+.navprin-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navprin-list li {
+    margin: 0 10px;
+}
+
+.navprin-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navprin-list li a:hover {
+    color: #f00;
+    /* Couleur au survol */
+}
+
+.colprin {
+    background-color: #e3f2fd;
+}

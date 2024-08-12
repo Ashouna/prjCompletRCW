@@ -1,0 +1,92 @@
+/* .App-header {
+    background-color: #007bff;
+}
+
+.App-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #dddddd !important;
+}
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; */
+/* Styles pour l'en-tête principal */
+.App-header {
+    background-color: #007bff;
+    /* Couleur de fond primaire */
+    padding: 10px 0;
+    /* Ajoute un peu de padding pour l'espacement */
+}
+
+/* Styles pour le titre dans l'en-tête */
+.App-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+    /* Couleur du texte en blanc */
+    text-align: center;
+    /* Centre le texte dans l'en-tête */
+}
+
+/* Styles pour les liens de navigation */
+.nav-link {
+    color: #ffffff !important;
+    /* Couleur des liens en blanc */
+    font-weight: bold;
+    /* Rend le texte des liens plus gras */
+}
+
+/* Styles pour les liens de navigation au survol */
+.nav-link:hover {
+    color: #dddddd !important;
+    /* Couleur des liens au survol en gris clair */
+}
+
+/* Styles pour la liste de navigation */
+.navbar-nav {
+    list-style: none;
+    /* Supprime les puces des éléments de liste */
+    display: flex;
+    /* Affiche les éléments en ligne */
+    justify-content: flex-end;
+    /* Aligne les éléments à droite */
+    align-items: center;
+    /* Centre verticalement les éléments */
+    padding: 0;
+    /* Supprime les marges et le padding par défaut */
+}
+
+/* Ajoute un peu d'espacement entre les éléments de navigation */
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+/* Styles pour le dropdown dans la barre de navigation */
+.navbar-nav .dropdown-menu {
+    background-color: #007bff;
+    /* Fond du menu déroulant */
+    border: none;
+    /* Supprime la bordure par défaut */
+}
+
+/* Styles pour les éléments du dropdown */
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+    /* Couleur du texte des éléments du dropdown */
+}
+
+/* Styles pour les éléments du dropdown au survol */
+.navbar-nav .dropdown-item:hover {
+    background-color: #0056b3;
+    /* Couleur de fond au survol */
+    color: #dddddd;
+    /* Couleur du texte au survol */
+}

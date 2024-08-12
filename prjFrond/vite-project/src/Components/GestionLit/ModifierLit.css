@@ -1,0 +1,54 @@
+.modifier-lit-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modifier-lit-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.modifier-lit-container .form-group {
+    margin-bottom: 15px;
+}
+
+.modifier-lit-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modifier-lit-container input[type="text"],
+.modifier-lit-container input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.modifier-lit-container input[type="checkbox"] {
+    width: auto;
+}
+
+.modifier-lit-container button[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.modifier-lit-container button[type="submit"]:hover {
+    background-color: #4cae4c;
+}

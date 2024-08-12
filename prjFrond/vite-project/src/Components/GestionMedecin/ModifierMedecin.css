@@ -1,0 +1,77 @@
+.modifier-medecin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modifier-medecin-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.modifier-medecin-container .form-group {
+    margin-bottom: 15px;
+}
+
+.modifier-medecin-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modifier-medecin-container input[type="text"],
+.modifier-medecin-container input[type="time"],
+.modifier-medecin-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.modifier-medecin-container .disponibilite-group {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.modifier-medecin-container .disponibilite-group .form-group {
+    margin-bottom: 10px;
+}
+
+.modifier-medecin-container button[type="button"] {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.modifier-medecin-container button[type="button"]:hover {
+    background-color: #c9302c;
+}
+
+.modifier-medecin-container button[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.modifier-medecin-container button[type="submit"]:hover {
+    background-color: #4cae4c;
+}

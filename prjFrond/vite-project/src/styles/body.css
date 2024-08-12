@@ -1,0 +1,9 @@
+/* body.css */
+
+.carousel-wrapper {
+    margin: 0 auto;
+    /* Centre le carrousel horizontalement */
+    width: 70%;
+    /* Largeur du carrousel (ajustez selon vos besoins) */
+    /* Ajoutez d'autres styles selon votre mise en page */
+}

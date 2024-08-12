@@ -1,0 +1,52 @@
+.detail-medecin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-medecin-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.detail-medecin-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.detail-medecin-container p strong {
+    color: #333;
+}
+
+.detail-medecin-container .disponibilites {
+    margin-top: 20px;
+}
+
+.detail-medecin-container .disponibilites h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detail-medecin-container .disponibilite-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.detail-medecin-container .disponibilite-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.detail-medecin-container .disponibilite-item p strong {
+    color: #333;
+}

@@ -1,0 +1,63 @@
+.list-lit-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-lit-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.list-lit-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list-lit-container table th,
+.list-lit-container table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.list-lit-container table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.list-lit-container table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.list-lit-container table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.list-lit-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.list-lit-container button:hover {
+    background-color: #0056b3;
+}
+
+.list-lit-container .delete-button {
+    background-color: #dc3545;
+}
+
+.list-lit-container .delete-button:hover {
+    background-color: #c82333;
+}

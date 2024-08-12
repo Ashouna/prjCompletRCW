@@ -1,0 +1,21 @@
+.containerdash {
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.grand-cadre {
+    background-color: #f0f0f0;
+    text-align: center;
+    /* Couleur de fond du cadre */
+    width: 100%;
+    /* Occupe toute la largeur de la page */
+    padding: 20px;
+    /* Espace intérieur du cadre */
+    box-sizing: border-box;
+    /* Garantit que le padding est inclus dans la largeur de 100% */
+    /* Ajoute d'autres styles selon tes préférences */
+}
+
+.marq {
+    width: 300px;
+}
